@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./blog.css"></style>
     <title>Blog Page</title>
   </head>
   <body>
@@ -13,15 +14,16 @@
         <a href="./home.html" class="link">Home</a>
         <a href="./blog.html" class="link">Blog</a>
       </div>
+    </div>
 
-      <section id="blog-container">
-        <button type="submit" id="addPost" class="herobtn">Create Post</button>
-        <div class="invisible" id="inputForm">
-          <input type="text" id="createTitle" placeholder="Title">
-          <input type="text" id="createBody" placeholder="Body">
-          <button type="submit" id="submitNewPost">Submit</button>
-        </div>
-      </section> 
+    <section id="blog-container">
+      <button type="submit" id="addPost" class="herobtn">Create Post</button>
+      <div class="invisible" id="inputForm">
+        <input type="text" id="createTitle" placeholder="Title" />
+        <input type="text" id="createBody" placeholder="Body" />
+        <button type="submit" id="submitNewPost">Submit</button>
+      </div>
+    </section>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./blog.js"></script>

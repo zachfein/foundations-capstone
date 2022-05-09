@@ -1,0 +1,108 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: #e1efe6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding: 5px;
+  color: black;
+}
+
+.view-teams {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#view-teams-btn {
+  color: black;
+  height: 100px;
+  width: 160px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: solid black 2px;
+  background-color: #aeb7b3;
+  border-radius: 50px;
+  transition: all 1.5s;
+}
+
+#view-teams-btn:hover {
+  color: black;
+  background-color: #e1efe6;
+  transition: all 1.5s;
+}
+
+#teams-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border: #aeb7b3 solid;
+  margin: top 30px;
+}
+
+.individual-team {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.team-name {
+  display: flex;
+  justify-content: center;
+}
+
+.view-roster {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #aeb7b3;
+  width: 70px;
+  justify-content: center;
+  transition: all 1.5s;
+}
+
+.view-roster:hover {
+  background-color: #08090a;
+  color: #e1efe6;
+  transition: all 1.5s;
+}
+
+#players-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.player {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid #aeb7b3;
+  margin: 5px;
+  width: 25vw;
+  justify-content: space-evenly;
+}

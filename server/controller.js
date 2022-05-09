@@ -38,7 +38,6 @@ module.exports = {
   },
 
   updatePost: (req, res) => {
-    console.log("hit");
     const { title, body } = req.body;
     let index = posts.findIndex((item) => +item.id === +req.params.id);
 

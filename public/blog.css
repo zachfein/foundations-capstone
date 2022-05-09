@@ -1,0 +1,99 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: #e1efe6;
+}
+
+.card {
+  background-color: #aeb7b3;
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  flex-direction: column;
+}
+
+h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.invisible {
+  display: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.herobtn {
+  color: black;
+  height: 100px;
+  width: 160px;
+  padding: 20px;
+  border: solid black 2px;
+  border-radius: 50px;
+  background-color: #aeb7b3;
+  margin: 20px;
+  transition: all 1.5s;
+}
+
+.herobtn:hover {
+  background-color: #e1efe6;
+  border: solid black 2px;
+  color: black;
+  transition: all 1.5s;
+}
+
+#blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-blog {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #aeb7b3;
+  transition: all 1.5s;
+}
+
+.delete-blog {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #aeb7b3;
+  transition: all 1.5s;
+}
+
+.edit-blog:hover {
+  background-color: #08090a;
+  color: #e1efe6;
+  transition: all 1.5s;
+}
+
+.delete-blog:hover {
+  background-color: #08090a;
+  color: #e1efe6;
+  transition: all 1.5s;
+}
+
+#buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding: 5px;
+  color: black;
+}
