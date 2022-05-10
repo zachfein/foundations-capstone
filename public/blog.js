@@ -56,7 +56,6 @@ const editPost = (event) => {
       title: editTitle.value,
       body: editBody.value,
     };
-    console.log(event);
     axios
       .put(`http://localhost:4008/api/posts/${event.target.id}`, body)
       .then((res) => {
@@ -74,7 +73,6 @@ const deletePost = (event) => {
 const getAllPosts = () => {
   axios.get("http://localhost:4008/api/posts").then((res) =>
     res.data.forEach((element) => {
-      console.log(element);
       displayPost(element);
     })
   );
